@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="com.example.alpha.kidslearningworld.Fruits"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/homebutton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home3"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/fruitstext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRUITS"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        />
+    
+    <ScrollView
+        android:id="@+id/fruitscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/fruitstext">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center">
+                    
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            
+                            <ImageView
+                                android:layout_width="180dp"
+                                android:layout_height="180dp"
+                                android:src="@drawable/fruit_apple"
+                                android:id="@+id/im1" />
+                            
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" 
+                                android:text="APPLE"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:textSize="20dp"
+                                android:textColor="#000000"/>
+                            
+                            
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp">
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:src="@drawable/fruit_banana"
+                            android:id="@+id/im2" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="BANANA"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20dp"
+                            android:textColor="#000000"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="180dp"
+                            android:layout_height="180dp"
+                            android:src="@drawable/fruit_pineapple"
+                            android:id="@+id/im3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PINEAPPLE"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:textSize="20dp"
+                            android:textColor="#000000"/>
+
+
+                    </LinearLayout>
+                    
+                    
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_peach"
+                        android:id="@+id/im4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PEACH"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_grapes"
+                        android:id="@+id/im5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="GRAPES"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_pear"
+                        android:id="@+id/im6" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PEAR"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_mango"
+                        android:id="@+id/im7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MANGO"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_orange"
+                        android:id="@+id/im8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ORANGE"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_strawberry"
+                        android:id="@+id/im9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="STRAWBERRY"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_pomegranate"
+                        android:id="@+id/im10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="POMEGRANATE"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_raspberry"
+                        android:id="@+id/im11" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="RASPBERRY"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:src="@drawable/fruit_watermelon"
+                        android:id="@+id/im12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="WATERMELON"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:textSize="20dp"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+    </RelativeLayout>
